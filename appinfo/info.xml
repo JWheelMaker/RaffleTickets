@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>raffletickets</id>
+    <name>Raffle Tickets</name>
+    <summary>Creating and then drawing Raffle Tickets.</summary>
+    <description><![CDATA[The App is made for something like &quot;Wichteln&quot; as we call it in Germany or other events where you have to draw a name of an other game member randomly.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="j.rad.743@gmail.com" >Jonas Rademacher</author>
+    <namespace>RaffleTickets</namespace>
+    <category>games</category>
+    <category>organization</category>
+    <category>tools</category>
+    <bugs>https://github.com/JWheelMaker/RaffleTickets/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Raffle Tickets</name>
+            <route>raffletickets.page.index</route>
+        </navigation>
+    </navigations>
+</info>

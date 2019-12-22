@@ -1,0 +1,15 @@
+{
+    "name": "Raffle Tickets",
+    "description": "Creating and then drawing Raffle Tickets.",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Jonas Rademacher"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
